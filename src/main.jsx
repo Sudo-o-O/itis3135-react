@@ -17,6 +17,7 @@ import Highlight from "./Highlight";
 import IntroForm from "./IntroForm";
 import WebsiteEvaluations from "./WebsiteEvaluations";
 import TechnicalDocumentation from "./TechnicalDocumentation";
+import Slideshow from "./Slideshow";
 
 import Hobby from "./Hobby/Hobby";
 import CrappyPage from "./Stuff/CrappyPage";
