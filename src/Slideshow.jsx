@@ -46,14 +46,9 @@ function Slideshow() {
   useEffect(() => {
     if (isPlaying && images.length > 0) {
       timerRef.current = setInterval(() => {
-        setCurrentIndex((prevIndex) => {
-          if (prevIndex === images.length - 1) {
-            clearInterval(timerRef.current);
-            setIsPlaying(false);
-            return prevIndex;
-          }
-          return prevIndex + 1;
-        });
+        setCurrentIndex((prevIndex) =>
+          prevIndex === images.length - 1 ? 0 : prevIndex + 1,
+        );
       }, 5000);
     }
 
