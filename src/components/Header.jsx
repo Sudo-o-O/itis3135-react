@@ -16,6 +16,7 @@ export default function Header() {
         <Link to="/product">Product</Link>
         <Link to="/highlight">Highlight</Link>
         <Link to="/intro_form">Intro Form</Link>
+        <Link to="/slideshow">Slideshow</Link>
       </nav>
 
       <nav className="secondary-nav" aria-label="Secondary navigation">
