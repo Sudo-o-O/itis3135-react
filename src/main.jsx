@@ -41,8 +41,9 @@ createRoot(document.getElementById("root")).render(
             path="technical-documentation"
             element={<TechnicalDocumentation />}
           />
+
+          <Route path="slideshow" element={<Slideshow />} />
         </Route>
-        <Route path="slideshow" element={<Slideshow />} />
 
         <Route path="/hobby" element={<Hobby />} />
         <Route path="/stuff/crap-page" element={<CrappyPage />} />
